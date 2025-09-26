@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Образование</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Портфолио</a>
+    <nav>
+      <ul class="menu">
+        <li><a class="" href="index.html">Начало</a></li>
+        <li><a class="" href="about.html">За мен</a></li>
+        <li><a class="active" href="education.html">Образование</a></li>
+        <li><a class="" href="projects.html">Проекти</a></li>
+        <li><a class="" href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container main">
+
+<section class="title-card small">
+  <h1>Образование</h1>
+</section>
+
+<section class="card">
+  <div class="table-wrap">
+    <table class="table">
+      <thead><tr><th>Години</th><th>Училище</th><th>Специалност</th></tr></thead>
+      <tbody>
+        <tr><td>2021–2025</td><td>НПГ по КТС – Правец</td><td>Системно програмиране (Средно образование)</td></tr>
+        <tr><td>2014–2021</td><td>ОУ "Н. Й. Вапцаров"</td><td>Основно образование</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="grid-2">
+  <div class="card">
+    <h3>Сертификати</h3>
+    <ul class="list">
+      <li>Сертификат по програмиране — основи на програмирането</li>
+      <li>Сертификат по уеб технологии — изграждане на уебсайт</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Опит</h3>
+    <p>Участие в училищни проекти и състезания по програмиране и уеб технологии.</p>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Златко Стефанов</p>
+    <div class="socials">
+      <a href="https://github.com/Zlatko156" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/zlatko.stefanov.585/" target="_blank">Instagram</a>
+      <a href="mailto:stefanovzlatko712@gmail.com">Имейл</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

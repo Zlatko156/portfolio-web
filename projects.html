@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Проекти</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Портфолио</a>
+    <nav>
+      <ul class="menu">
+        <li><a class="" href="index.html">Начало</a></li>
+        <li><a class="" href="about.html">За мен</a></li>
+        <li><a class="" href="education.html">Образование</a></li>
+        <li><a class="active" href="projects.html">Проекти</a></li>
+        <li><a class="" href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container main">
+
+
+<section class="title-card small">
+  <h1>Проекти</h1>
+</section>
+
+<section class="projects">
+  <article class="card proj">
+    <img src="https://picsum.photos/seed/schoolinfo/600/300" alt="School Info" class="proj-img" />
+    <div class="proj-body">
+      <h3>Учебен сайт „School Info“</h3>
+      <p>Информативен сайт за училище със секции за специалности и контактна форма.</p>
+      <p class="tech"><strong>Технологии:</strong> HTML5, CSS3, JavaScript</p>
+      <a class="btn small" href="#">Виж проекта</a>
+    </div>
+  </article>
+  <article class="card proj">
+    <img src="https://picsum.photos/seed/webcalc/600/300" alt="Web Calculator" class="proj-img" />
+    <div class="proj-body">
+      <h3>Уеб калкулатор</h3>
+      <p>Приложение за основни аритметични операции с валидиране на входа.</p>
+      <p class="tech"><strong>Технологии:</strong> JavaScript (ES6), HTML5, CSS3</p>
+      <a class="btn small" href="#">Виж проекта</a>
+    </div>
+  </article>
+  <article class="card proj">
+    <img src="https://picsum.photos/seed/todoapp/600/300" alt="To-Do App" class="proj-img" />
+    <div class="proj-body">
+      <h3>To-Do приложение</h3>
+      <p>Създаване, маркиране и изтриване на задачи, запазвани в LocalStorage.</p>
+      <p class="tech"><strong>Технологии:</strong> HTML, CSS, JavaScript, LocalStorage</p>
+      <a class="btn small" href="#">Виж проекта</a>
+    </div>
+  </article>
+</section>
+
+
+</main>
+<footer class="footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Златко Стефанов</p>
+    <div class="socials">
+      <a href="https://github.com/Zlatko156" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/zlatko.stefanov.585/" target="_blank">Instagram</a>
+      <a href="mailto:stefanovzlatko712@gmail.com">Имейл</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

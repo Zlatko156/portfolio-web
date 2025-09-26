@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Начало</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Портфолио</a>
+    <nav>
+      <ul class="menu">
+        <li><a class="active" href="index.html">Начало</a></li>
+        <li><a class="" href="about.html">За мен</a></li>
+        <li><a class="" href="education.html">Образование</a></li>
+        <li><a class="" href="projects.html">Проекти</a></li>
+        <li><a class="" href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container main">
+
+<section class="title-card">
+  <h1>Добре дошли в моето портфолио</h1>
+</section>
+
+<section class="intro-grid">
+  <div class="col">
+    <div class="card">
+      <p>Здравейте! Казвам се Златко Стефанов и съм ученик по системно програмиране в НПГ по КТС – гр. Правец. Имам голяма страст към софтуерното инженерство. През последните години развивам уменията си в различни технологии и работя по интересни проекти.</p>
+    </div>
+    <div class="card">
+      <p>В това портфолио ще намерите информация за моето образование, опит и проектите, върху които съм работил. Винаги съм открит за нови възможности и съдействие, така че не се колебайте да се свържете с мен!</p>
+    </div>
+  </div>
+  <div class="col photo-col">
+    <img class="avatar" src="images/profile.jpg" alt="Златко Стефанов">
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Любимо видео</h2>
+  <div class="video-wrap">
+    <iframe src="https://www.youtube.com/embed/hKmgWKeEaHs" title="YouTube video" allowfullscreen></iframe>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Златко Стефанов</p>
+    <div class="socials">
+      <a href="https://github.com/Zlatko156" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/zlatko.stefanov.585/" target="_blank">Instagram</a>
+      <a href="mailto:stefanovzlatko712@gmail.com">Имейл</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

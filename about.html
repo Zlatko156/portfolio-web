@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>За мен</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Портфолио</a>
+    <nav>
+      <ul class="menu">
+        <li><a class="" href="index.html">Начало</a></li>
+        <li><a class="active" href="about.html">За мен</a></li>
+        <li><a class="" href="education.html">Образование</a></li>
+        <li><a class="" href="projects.html">Проекти</a></li>
+        <li><a class="" href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container main">
+
+<section class="title-card small">
+  <h1>За мен</h1>
+</section>
+
+<section class="about-grid">
+  <div class="col">
+    <div class="card">
+      <p>Роден съм в София и израстнал в Ботевград. От по-малък имам интерес към технологиите и системите. В момента съм ученик в НПГ по КТС. Особено ме привличат вградените системи и технологиите.</p>
+      <p>За мен е важно трудът и резултатът да вървят ръка за ръка. Интересувам се от туризъм, коли, спорт и бизнес. Моята мисия е всеки ден да бъда по-добър от вчера.</p>
+    </div>
+    <div class="card tag-card">
+      <h3>Хобита и интереси</h3>
+      <ul class="tags">
+        <li>Технологии</li><li>Вградени системи</li><li>Туризъм</li>
+        <li>Коли</li><li>Спорт</li><li>Бизнес</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col photo-col">
+    <img class="avatar" src="images/profile.jpg" alt="Златко Стефанов">
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Златко Стефанов</p>
+    <div class="socials">
+      <a href="https://github.com/Zlatko156" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/zlatko.stefanov.585/" target="_blank">Instagram</a>
+      <a href="mailto:stefanovzlatko712@gmail.com">Имейл</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
